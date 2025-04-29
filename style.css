@@ -1,0 +1,241 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  body {
+    background-color: #f1f1f1;
+  }
+  /* header css start */
+  .header-section {
+    height: 25vh;
+  }
+  .header {
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  .author-name {
+    background-color: black;
+    color: white;
+  }
+  /* header end */
+  .navbar {
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 95%;
+}
+.logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.nav-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 20vh;
+  align-items: center;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.join-btn {
+  padding: 8px 16px;
+  background-color: #1c1c1c;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.join-btn:hover {
+  background-color: #000;
+}
+  /* article start */
+  .contant {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+    "items1 items2"
+    "items4 items3"
+    "items4 items5"
+    ;
+    gap: 3%;
+    width: 95vw;
+  }
+  .item1 {
+    grid-area: items1;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgb(128, 127, 127);
+  }
+  .story {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    text-align: justify;
+    width: 95%;
+  }
+  .more-info {
+    height: 30vh;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Comments {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    width: 15%;
+  }
+  .Comments button {
+    background-color: black;
+    color: white;
+    width: 20%;
+  }
+  .more-info input {
+    height: 70%;
+    width: 20%;
+  }
+  .item2 {
+    grid-area: items2;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgb(128, 127, 127);
+}
+.name-story{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    text-align: justify;
+    width: 95%;
+}
+.item3 {
+    grid-area: items3;
+    box-shadow: 5px 5px 5px 5px rgb(128, 127, 127);
+    height: 50vh;
+}
+.Popular-header {
+    height: 8vh;
+    background-color: #dcd9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Popular-header p{
+    width: 90%;
+}
+.Posts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+.post-title {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.item3 img {
+    width: 15%;
+}
+.item4 {
+    grid-area: items4;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgb(128, 127, 127);
+}
+.item5 {
+    grid-area: items5;
+    height: 25vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgb(128, 127, 127);
+}
+.tags{
+    height: 8vh;
+    background-color: #dcd9d9;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.tags p{
+    width: 90%;
+}
+.tags-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    gap: 3%;
+}
+.tags-list a span{
+    background-color: black;
+    color: white;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    font-size: larger;
+}
+.tags-list a{
+    text-decoration: none;
+    background-color: #dcd9d9;
+    color: black;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: 5%;
+}
+  /* artical end */
+  
+
+
+  
